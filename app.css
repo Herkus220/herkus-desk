@@ -96,7 +96,7 @@ body.has-banner #view{padding-top:calc(var(--sat) + 92px)}
 .stat .v{font-size:15px;font-weight:700;margin-top:2px}
 
 /* carousel */
-.carousel{display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;margin:0 -16px;padding:0 16px 4px;scrollbar-width:none}
+.carousel{display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding:0 16px;margin:0 -16px;padding:0 16px 4px;scrollbar-width:none}
 .carousel::-webkit-scrollbar{display:none}
 .agent-card{scroll-snap-align:start;flex:0 0 72%;max-width:260px;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:14px;text-align:left}
 .agent-card .top{display:flex;align-items:center;gap:8px;font-weight:700}
