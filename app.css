@@ -1,11 +1,24 @@
 /* Desk — black iOS look (Robinhood / Phantom). Flat: no glow, no neon, no shadows. */
 :root{
-  --bg:#000000; --card:#0f0f11; --card2:#1a1a1d; --line:#232327; --text:#ffffff; --text2:#8e8e93; --text3:#5c5c61;
-  --green:#00c805; --red:#ff5000; --accent:#ab9ff2; --amber:#f5a623;
-  --r:16px; --tab:56px;
-  --sat:env(safe-area-inset-top,0px); --sab:env(safe-area-inset-bottom,0px);
-  --sal:env(safe-area-inset-left,0px); --sar:env(safe-area-inset-right,0px);
-  color-scheme:dark;
+  --bg:#000000;
+  --text:#ffffff;
+  --secondary:rgba(235,235,245,0.6);
+  --tertiary:rgba(235,235,245,0.3);
+  --sep:rgba(84,84,88,0.55);
+  --card:#1c1c1e;
+  --card2:#2c2c2e;
+  --green:#00d35a;
+  --red:#ff453a;
+  --orange:#ff9f0a;
+  --cyan:#64d2ff;
+  --blue:#0a84ff;
+  --yellow:#ffd60a;
+  --pink:#ff6b9a;
+  --text2:var(--secondary);
+  --text3:var(--tertiary);
+  --line:var(--sep);
+  --accent:var(--cyan);
+  --amber:var(--orange);
 }
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 html,body{margin:0;background:var(--bg);color:var(--text);height:100%}

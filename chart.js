@@ -3,7 +3,7 @@
   'use strict';
   function LineChart(canvas, opts) {
     this.c = canvas; this.ctx = canvas.getContext('2d');
-    this.o = Object.assign({ up: '#00c805', down: '#ff5000', base: '#3a3a3f', pad: 12, onScrub: null }, opts || {});
+    this.o = Object.assign({ up: '#00d35a', down: '#ff453a', base: '#3a3a3f', pad: 12, onScrub: null }, opts || {});
     this.pts = []; this.scrub = null;
     var self = this;
     this._ro = new (g.ResizeObserver || function () { return { observe: function () {} }; })(function () { self.draw(); });
